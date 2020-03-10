@@ -1,0 +1,195 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+
+
+div,p,h1{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #efefef;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{ 
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    background-color: #3c3c3c;
+    color: #fff;
+    padding: 60px 0 10px 0;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+aside {
+    width: 240px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+}
+
+aside .avatar {
+    margin-top: -80px;
+    text-align: center;
+}
+
+aside .avatar img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+
+aside section {
+    border-bottom: 1px solid #ccc;
+    margin: 30px 20px 0 20px;
+    padding-bottom: 20px;
+}
+
+aside section h2{
+    color: #5c99ca;
+    font-size: 16px;
+}
+
+.personal_detail .item{
+    line-height: 25px;
+}
+
+
+.contact svg {
+    height: 22px;
+    width: 22px;
+}
+
+.contact .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.contact .item span{
+    margin-left: 10px;
+}
+
+.personal_more svg {
+    height: 20px;
+    width: 20px;
+}
+
+.personal_more .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.personal_more .item a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #888;
+    line-height: 22px;
+    height: 22px;
+    
+}
+
+
+@media (max-width:768px) {
+    aside{
+        width: 100%;
+    }
+}
+
+/*
+    main
+*/
+
+
+main {
+    padding: 0 20px;
+    background-color: #fff;
+    flex: 1;
+    letter-spacing: 0.5px;
+}
+
+main > section {
+    margin: 30px 20px 0 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+main section h2 {
+    color: #5c99ca;
+    font-size: 16px;
+    
+}
+
+main section .item h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.strong {
+    color: #ff502c;
+    background-color: #fff5f5;
+}
+
+main .talent p{
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
+
+
+main .project .item h3{
+    color: #333;
+}
+
+.projectInfo {
+    padding-top: 10px;
+    color: #666;
+}
+
+.projectInfo p {
+    line-height: 25px;
+}
+
+strong {
+    font-size: 14px;
+}
+
+.projectImage img {
+    width: 550px;
+}
+
+.zhushou img {
+    width: 175px;
+    margin-right: 5px;
+}
+
+.tieda {
+    margin-top: 5px;
+}
